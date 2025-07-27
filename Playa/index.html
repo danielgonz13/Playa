@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Invitación a la Playa</title>
+  <style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; <-- quita esto */
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('https://i.imgur.com/oBQ7D1k.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto; /* importante para permitir scroll */
+  padding-top: 40px; /* espacio arriba */
+}
+
+
+    .card {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      max-width: 400px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin: 15px 0;
+    }
+
+    .reserva-img {
+      margin-top: 20px;
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Sorpresa para el nuevo licenciado! 💛</h1>
+    <p>Del 2 al 5 de septiembre guardá tu agenda…</p>
+    <p>Hay arena, mar y sol esperándonos.</p>
+    <p>¿El destino? Occidental Tamarindo All Inclusive 🏝️</p>
+    <p>Qué llevar? Ganas de comer y relajarse... o de pasar todo el día ebrio en un All Inclusive</p>   
+    <a href="https://maps.app.goo.gl/Brw63WhQ7ppCiQ7C6" target="_blank">Ubicación en Google Maps</a> 
+    <img src="./Imagenes/9E1B9847-BEA0-4713-99E9-246F07E1CD47_1_201_a.jpeg" alt="Reserva sorpresa" class="reserva-img">
+    <img src="./Imagenes/Playa.png" alt="Reserva sorpresa" class="reserva-img">
+
+  </div>
+</body>
+</html>
